@@ -1,0 +1,72 @@
+<제일 많이 사용하는 css 디자인>
+https://www.w3schools.com/css/tryit.asp?filename=trycss3_background_full
+
+
+transparent = rgba(0,0,0,0)와 같으며 본래는 색이 있으나 모바일버젼이나 다르게 표현하고 싶을때 넣어주면 갑자기 배경이 투명이된다
+
+inherit = 마더가 색상 물려줌
+
+
+text-shadow: 2px 2px 5px red; <- 5px이 쉐도우 블러값
+
+
+<이 쉐도우를 가장 많이 씀>
+h1 {
+  text-shadow: 0 0 3px #FF0000;
+}
+->3px 블러값
+
+
+<내가 찾던 글씨 은은한 블러처리>
+<body>
+  <h2>shadow</h2>
+  <div class="box1">가나다라마바사</div>
+  <style>
+    .box1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 600px;
+      height: 300px;
+      background-color: #999;
+      color: #fff;
+      font-size: 40px;
+      font-weight: bold;
+      text-shadow: 0 0 4px #626262;
+    }
+  </style>
+</body>
+
+
+<로렘 단어 축약법>
+Lorem8<-8단어만 들어가서 짧게 테스트 가능
+
+<구글폰트 사용법>
+https://fonts.google.com/ 가서 우측 상단에 selected famillies 버튼을 누르고 사용하고자 하는 폰트에서 +추가 버튼을 눌러서 
+Use on the web
+To embed a font, copy the code into the <head> of your html
+<link> @import
+두개중에 link로 사용하여서 복사해서 스타일 시트에 붙여넣는데
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+상단에 이두줄은 지워도된다
+보통  <title>Responsive | css</title>타이틀 아래 스타일리셋 시작하기 전에 집어넣는다.
+그리고 주로 사용할 기본 폰트는 스타일 리셋 선언에 넣어준다
+
+
+<css전환>
+  transition: all 2s;  <-보통 all울  쓴다
+
+
+<모질라사이트 이징펑션 mdn>
+easing function mdn<- 여기 접속하여 3D에니메이션 참고
+https://developer.mozilla.org/en-US/docs/Web/CSS/easing-function
+
+
+<마우스 오버일때 메뉴가 더 늘어난 부분만 늘어나게 할때>
+마우스 hover일때
+max-height: 300px;
+
+마우스 오버전 
+max-height: 0;
+

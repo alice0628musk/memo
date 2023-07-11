@@ -1,0 +1,25 @@
+git://https://github.com
+groove0628@naver.com
+wndksdl25@#
+
+echo "# -" >> README.md 
+git init
+git add README.md 
+git commit -m "first commit" 
+git remote add rm origin https://github.com/alice0628musk/i.git 
+git push
+
+
+
+git config --global user.name "alice0628musk"
+
+git config --global user.email "groove0628@naver.com"
+
+
+
+
+git romote add rm origin https://github.com/alice0628musk/i.git 
+
+
+
+git push
