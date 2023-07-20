@@ -1,0 +1,79 @@
++cdn 주소로 폰트 css연결하는게 제일 좋고
+woff로 무료변환기 써서 한후 
+@font-face {
+  font-family: "poppins";
+  src: url(../fonts/Poppins-Thin.woff) format("woff");
+  font-weight: 100;
+}
+로 셋팅
+@charset "UTF-8";
+@import url(fonts.css); 
+comm에 이렇게 추가한다
+
+reset.css에다가  
+body {
+  background: #fff;
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: "poppins", "Noto Sans KR", "Malgun Gothic", "맑은 고딕", sans-serif;
+  color: #111;
+}
+팝핀을 추가한다.
+
+
+#logo a {
+  font-family: "poppins";
+} 아이디가 로고라서 #을 넣어주고 로고만 바뀌게 지정해줄수도 있다
+
+---------------------------------------------------------------------------------
+sass로 코딩을 할수도 있는데 이걸로 할때는 
+live sass compiler이라는 확장 프로그램을 다운받고
+왼쪽 하단 설정 톱니바퀴누르고
+우측 상단에 톱니바퀴 설정 json을 누르고
+
+<settings.json  셋팅 제이슨>
+
+}<-마지막 대괄호 전에 긁어 넣는다
+"liveSassCompile.settings.formats":[
+  {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "~/../css/"
+  },
+],
+"files.autoSave": "onFocusChange",
+
+
+넣고 나면
+
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "~/../css/"
+    },
+  ],
+}
+
+이렇게 코드가 바뀐다.
+
+---------------------------------------------------------------------------------
+
+온포커스 명령을 추가한다
+
++ comm.css 를 우측하단 watching을 누르면 map이 생기고
+거기서 연결이 이루어진다.
+scss를 코딩하되 css에서 scss를 불러오는 형식이다.
+
+
+comm.css는 결과물이고
+scss에서 수정을 하는것이다.
+
+
+css -> scss로 컴파일러(무료로 찾아서 구문을 변환해주는 변환기)
+scss의 문법으로 변환해준다.  취업이 더 잘되며 궁극적으로는 
+이렇게 코딩을 해야한다.
+
+
+ _fonts.scss 언더바를 쓰고 새파일을 만들면 지저분한 css컴파일러가 안생긴다.
+언더바는 하위에 있다는 뜻이다

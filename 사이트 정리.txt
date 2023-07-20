@@ -2,13 +2,16 @@
 Auto Close Tag
 Auto Rename Tag
 Beauty
+ESLint
+GitHub Copilot
 htmltagwrap
 Korean Language Pack for Visual Studio Code
 Live Server
 HTML Snippets
 Image preview
+Live Sass Compiler
 
-
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
 
 웹디자인 포토샵 수업
 

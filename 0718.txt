@@ -1,0 +1,27 @@
+.keep-check input:checked + label::before {
+  background-position: -244px -167px;
+포지션은 무조건 -로 시작한다.
+
+-> scss에서 &를써서 간단히 코딩하는 법
+label{&::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  background: #fff url(https://ssl.pstatic.net/static/nid/login/m_sp_01_login_008d5216.png) -244px -87px no-repeat;
+  background-size: 266px 225px;
+}
+
+
+ 라인어썸
+https://icons8.com/line-awesome
+
+폰트 어썸 사용법
+https://cdnjs.com/     cdn주소로 가서 font-awesome을 검색하고
+가져온다 가장 상위꺼로 복사해서 html에 구문을 넣어준다
+
+watching은 항상 켜져 있어야한다.
+
+부분 구문 지우기 선택하고> ctrl + shift +   K

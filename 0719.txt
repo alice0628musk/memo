@@ -1,0 +1,18 @@
+_variables.scss 변수 설정
+이 변수 설정은 주조색과 배경색을 일정하게 일괄 변경할 수 있게 변수를 설정해준다.
+
+<예시>
+#header {
+  border-bottom: 1px solid $b;
+  ;
+<scss>
+$b: #999;
+
+<comm.scss 상단에 임폴트 설정을 미리하고 진행해야된다>
+@charset "UTF-8";
+@import "variables", "mixin", "fonts", "reset", "main", "contents";
+
+
+
+_mixin.scss
+
