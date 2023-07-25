@@ -1,0 +1,69 @@
+https://velog.io/@odada/lhre4uqu
+ctrl+클릭  : 새창뜨기가 됨
+
+git checkout = 가지치기 코드 올리기
+(다음에 알려줌)
+
+git 우측 상단 마이페이지 아이콘 누르기
+-> account -> change username
+계정이름 바꿀수 있는법
+
+alice0628musk.github.io
+새폴더를 생성하는 이름
+git이 연결됐다는 걸 확인하는 법
+README.md  /  .git  두 파일이 있어야 정상
+
+커밋만 눌려서 변경 사항의 기록만 남길 수 있다.
+동기화는 누르지 않고 커밋만 눌러서 계속 기록을 남겨 올릴 수 있다.
+
+커밋 내역은 시계처럼 생긴 우측 코드 밑에 버튼을 누르면 커밋 내역을 볼수 있다
+
+https://alice0628musk.github.io/
+이 주소가 호스트 주소가 된다
+
+<확장프로그램>
+gitlens :  git에 올라가는 커밋 기록을 바로 보여준다.
+커밋에서 우측상단 ...에 소스제어리포지토리 눌러서 깃랜즈에서 확인하기
+
+crtl+shift+P : 눌러서 전체 검색
+> <-꺽쇄가 있으면 확장자파일까지 전부 검색해줌
+->  >git clone 눌러서 원하는걸 선택해서 복제하면 알아서 들어온다.
+
+Fetch라는 버튼을 누르면 깃렌즈가 업데이트 된다
+
+--------------------------------------------------------------
+집에서 할때와 회사 코드를 만질때 git pull를 안하고 나도 수정하고 회사코드도 수정되었을때.
+커밋을 하고 충돌이 난다.
+그럴때는 병합버튼을 눌러서 수락할 코드를 선택하고 병합을 눌러서 병합시킨다.
+
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
+https://www.w3schools.com/html/html_responsive.asp
+
+<picture>
+  <source srcset="img_smallflower.jpg" media="(max-width: 600px)">
+  <source srcset="img_flowers.jpg" media="(max-width: 1500px)">
+  <source srcset="flowers.jpg">
+  <img src="img_smallflower.jpg" alt="Flowers">
+</picture>
+max-width-600px이하로 내려갈 경우
+750px을 모바일작업 1000px까지 가능하다 이미지가
+이미지 분기처리하는 부분.
+px이 커질수록 어떤 이미지가 보일지 보여주는 코드
+
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+https://velog.io/@odada/lhre4uqu
+브랜치 코드 예제는 터미널 버젼이다.
+
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
+vscode에서 병합하는 방법
+좌측하단에 main이라고 써진구슬꽨거같은 아이콘을 누르면 브런치를 추가할수 있도록 상단 서치란에 뜬다 거기에다가 feature1을 써주고 엔터치면 브랜치가 나온다
+분기점
+
+feature1 분기를 두고 feature2 분기를 병합한다.
+소스제어에서 ...에서 분기->분기병합을 클릭한다
+
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+GIT에서 병합하는 방법
+Pull requests를 누르고 우측에 초록버튼new pull request를 누르면 base를 compare를 통해서도 분기병합이 가능하다.
