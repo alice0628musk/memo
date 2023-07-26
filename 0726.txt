@@ -1,0 +1,85 @@
+내가 검색해서 찾음
+<Eric Meyer의 "CSS 재설정" 2.0>
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
+git clone 하고 본인 깃 뜨고 엔터치면 리포지토리 전체가 나오고 선택도 가능
+
+코드를 팀장에게 보내서 합치려면  
+pull requests -> new pull requests -> write에 쓰고 commit 버튼을 누르고
+팀장에게 내가 작업한 코드가 간다.
+
+내 git에 와서 좍측에 sync fork 누르고 update branch 눌러서 새로고침을 해주면 새롭게 작성한 코드들이 들어오게 된다.
+vscode 소스제어에 동기화하기가 뜨고 버튼을 누르면 다른 사람들 코드가 한꺼번에 들어온다.
+
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
+github 테마 중에 제일 유명한게 Jekyll theme이다.
+
+셋팅-> pages -> Custom domain 에서 개인 도메인을 만들수도있다
+
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
+젤리켓 활용해서 디자인만 변경해 코딩할때
+상대경로인 경우 절대경로로 모두 바꿔준다.
+
+<link rel="stylesheet" href="/css/style.css">
+이런 상대경로를
+https://alice0628musk.github.io/css/style.css
+우클릭 링크주소 복사 혹은 새텝애서 열기해서 주소를 바꿔준다.
+
+/css/style.css <- /슬러쉬로 시작하면 도메인주소를 기반으로 나오고
+css/style.css <- 슬러쉬 안넣고 시작하면 로컬경로이다. ./가 생략된거임
+
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
+F12개발자 모드 키고 크롬에서 새로고침 좌측 상단에  우클릭 -> 캐시 비우기 및 강력 새로고침
+

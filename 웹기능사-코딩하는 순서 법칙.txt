@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang"ko">
+
+헤드 아래 타이틀 넣고 css링크 걸어준다
+<head>
+<title>just쇼핑몰</title>
+  <link rel="stylesheet" href="./css/comm.css">
+
+바디열고 시작 와랩 잡고 
+<body>
+<div class="wrap">
+ <header class="header"> 헤더를 잡는다.
+
+ <h1 class="logo"> 로고를 h1 제목으로 적어주고
+ <nav class="gnb"> 네비게이션을 넣고
+<ul class="depth1">  <li>
+정렬되지 않은 나열 ul li 라는 뜻은 번호가 없이 나열된다는 뜻이다.
+
+--------- 여기까지 헤더 상단이다.
+
+
+main을 잡고 시작한다.
+
