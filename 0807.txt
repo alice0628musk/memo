@@ -1,0 +1,59 @@
+이런것도 추가 : 자기 설명서 자기소개 (http://zenol.co.kr/)
+
+https://opensea.io/ : 
+
+wa.or.kr : 접근성 인증 받는 사이트
+
+
+
+<네이버 커머스 고도몰>
+거의 10~15%마진이라고 보면된다..ㅠㅠ
+신용카드 7% 띄어가고 클릭 검색 수수료 나가고 나면 거의없음
+10%이상 마진이 남으면 네이버에서 클릭도 안되게함;;;
+도매몰, 도매꾹 사이트등에서 띄어다 팔지만 거의 안남음
+차라리 동대문,남대문 가서 띄어다 파는게 더 낫다
+싸게 사서 내가 팔아서 마진 남기는게 더 나음
+유투브 참고
+
+
+<파일질라>
+https://filezilla-project.org/\
+pro말고 일반 FileZilla 다운로드하여 설치합니다.
+첫 세팅하는 법
+서버 아이콘 클릭-> 항목선택 나오면 좌측 아래 새사이트<- 클릭
+->SFTP로 설정
+
+프로토콜	SFTP
+FTP 포트	17662
+FTP 주소(host) : gdadmin.alicezone133.godomall.com
+FTP 아이디	 : alicezone
+FTP 비밀번호 : 카와이젝키사서함00
+
+파일질라 경로에서 이미지 수정하면됨
+
+
+<vscode로는 소스를 수정한다>
+ftp-simple를 확장설치해준다.
+ctrl+shift+P : ftp를 누르고 ftp simple config - connection setting 선택
+
+[
+	{
+		"name": "alicezone",
+		"host": "gdadmin.alicezone133.godomall.com",
+		"port": 17662,
+		"type": "sftp",
+		"username": "alicezone",
+		"password": "kawai25800",
+		"path": "/",
+		"autosave": true,
+		"confirm": false
+	}
+]
+
+
+수정해주고
+ctrl+shift+P :  ftp simple remote directory - open to workspace를 누르면
+접속이 되었다면 아래 경로 폴더들이 쭉 나올것이다.
+
+
+

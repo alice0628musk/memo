@@ -1,0 +1,42 @@
+https://www.10page.co.kr/
+10페이지씩 만들어주는 홈페이지 만들어주는 사이트 가격이 쌈
+이런걸 운영하는 사업을 구상하기좋음
+
+maryjanee.dothome.co.kr
+
+컨트롤+시프트+N 새 vscode 새창뜨기
+
+컨트롤+시프트+P 새호스트설정 컨피그
+
+
+<3개월 무료 마이닷홈 - 경로로 만든 내 호스팅 주소!!!!>
+http://maryjanee.dothome.co.kr/images/about-member8.jpg
+(html 부모 폴더는 안써도 된다)
+
+
+https://www.dothome.co.kr/my/service/web/basic/detail.php
+우측 상단 마이닷홈 누르고 무료 호스팅 나오면 상세보기 버튼 눌러서 호스팅 경로랑 주소 파일질라 접속.
+
+
+
+요청 개발 사이트를 어디로 해달라고 하냐에 따라서 
+그누보드로 카페24로 할지 네이버 커머스 사이트로 할지
+요청에 따라서 만들어준다.
+
+http://maryjanee.dothome.co.kr/adm/  <- 그누보드 관리자화면
+
+최대한 오픈개발소스들은 그대로 두고 수정가능한 부분을 건드려서 사이트 수정을 해서 새사이트를 만드는것이다.
+
+
+style.css?ver=191202:32 
+32번째 줄이라는뜻이고 open in new tab 누르고 
+
+http://maryjanee.dothome.co.kr/theme/basic/skin/latest/pic_list/style.css?ver=191202
+그누보드 경로 찾아들어가서 css 수정하면서 작업하면 된다.
+
+
+http://maryjanee.dothome.co.kr/adm/
+그누보드 접속은 admin 아이디 - wndksdl255! 비번
+
+https://nuli.navercorp.com/
+웹접근성 반영 기준 확인사이트
